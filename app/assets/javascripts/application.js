@@ -10,6 +10,11 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery.min
+//= require bootstrap.min
+//= require material.min
+//= require nouislider.min
+//= require material-kit
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
