@@ -11,5 +11,8 @@
     = javascript_include_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
+    %p{class="notice"} = notice
+    %p{ class="alert"} = alert
+
     = yield
 
