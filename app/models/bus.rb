@@ -1,4 +1,5 @@
 class Bus < ApplicationRecord
   has_many :locations
-  belongs_to :user
+  has_many :rosters
+  has_many :users, through: :rosters
 end
